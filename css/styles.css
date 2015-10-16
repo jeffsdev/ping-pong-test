@@ -1,0 +1,25 @@
+body {
+  background: #000;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+  background: #333;
+  display: none;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.question {
+  display: none;
+  text-align: center;
+}
+
+#numInput {
+  max-width: 200px;
+  margin: 20px auto;
+}
