@@ -23,3 +23,38 @@ header h1 {
   max-width: 200px;
   margin: 20px auto;
 }
+
+.output {
+  padding: 0 10px;
+}
+
+.numbers {
+  border: 2px solid #ccc;
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+  margin-top: 20px;
+  display: none;
+}
+
+.numbers p {
+    display: inline-block;
+    margin: 20px;
+}
+
+.pp {
+  color: #968;
+}
+.po {
+  color: #364;
+}
+.pi {
+  color: #568;
+}
+
+
+.pp,
+.po,
+.pi {
+  font-weight: bold;
+}
