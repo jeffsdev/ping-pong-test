@@ -8,12 +8,15 @@ Epicodus - Intro to Programming
 
 ###Description
 Ping-Pong Test code review.
+Takes the number the user inputs and uses javascript/jquery to insert the numbers on the page.
+For numbers divisible by 3, it prints "ping", for those divisible by 5, it prints "pong", and for those divisible by 15, it prints "ping-pong".
 
 ###Setup Instructions
-None.
+1. Go to project site on gh-pages.
+2. Follow instructions on the page.
 
 ###Link to GitHub Pages Site
-
+[Link to GitHub Pages Site](http://jeffsdev.github.io/ping-pong-test/)
 
 ###Copyright and License Info
 Copyright (c) 2015 Jeff Seymour
