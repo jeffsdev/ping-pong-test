@@ -8,11 +8,18 @@ header {
   padding: 50px 0;
   background: #333;
   display: none;
+  background-image: url("../img/net.jpg");
+  background-repeat: no-repeat;
 }
 
 header h1 {
   margin: 0;
+  text-shadow: 3px 3px 6px #000;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
 }
+
+/*-- Form section styles --*/
 
 .question {
   display: none;
@@ -23,6 +30,8 @@ header h1 {
   max-width: 200px;
   margin: 20px auto;
 }
+
+/*-- ping pong number output styles --*/
 
 .output {
   padding: 0 10px;
@@ -45,13 +54,14 @@ header h1 {
 .pp {
   color: #968;
 }
+
 .po {
   color: #364;
 }
+
 .pi {
   color: #568;
 }
-
 
 .pp,
 .po,
