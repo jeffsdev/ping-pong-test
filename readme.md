@@ -11,6 +11,8 @@ Ping-Pong Test code review.
 Takes the number the user inputs and uses javascript/jquery to insert the numbers on the page.
 For numbers divisible by 3, it prints "ping", for those divisible by 5, it prints "pong", and for those divisible by 15, it prints "ping-pong".
 
+Update 10/27/15 - Added additional CSS styles and jQuery functionality.
+
 ###Setup Instructions
 1. Go to project site on gh-pages.
 2. Follow instructions on the page.

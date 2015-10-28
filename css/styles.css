@@ -1,3 +1,8 @@
+html {
+	position: relative;
+	min-height:100%;
+}
+
 body {
   background: #000;
   color: #fff;
@@ -5,11 +10,12 @@ body {
 
 header {
   text-align: center;
-  padding: 50px 0;
+  padding: 90px 0;
   background: #333;
   display: none;
   background-image: url("../img/net1.jpg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header h1 {
@@ -17,9 +23,17 @@ header h1 {
   text-shadow: 3px 3px 6px #000;
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
+  padding: 40px;
 }
 
 /*-- Form section styles --*/
+
+.enter-again {
+  display: none;
+  text-align: center;
+  background: #111;
+  padding: 20px;
+}
 
 .question {
   display: none;
@@ -43,6 +57,7 @@ header h1 {
   font-size: 2rem;
   padding: 10px;
   margin-top: 20px;
+  margin-bottom: 100px;
   display: none;
 }
 
@@ -67,4 +82,43 @@ header h1 {
 .po,
 .pi {
   font-weight: bold;
+}
+
+/*-- button and form input styles --*/
+
+.btn-input,
+.btn-again {
+  background: #11141c;
+  border: 2px solid #679;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+}
+
+.btn-input:hover,
+.btn-again:hover {
+  background: #143;
+  border: 2px solid #697;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+#numInput {
+  background: #111;
+  height: 100px;
+  text-align: center;
+  font-size: 3rem;
+  color: #0f0;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #000;
+	width: 100%;
+  padding: 10px;
+  margin-top: 35px;
+  text-align: center;
+  color: #555;
 }
